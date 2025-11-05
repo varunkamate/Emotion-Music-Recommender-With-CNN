@@ -17,8 +17,8 @@ IMG_SIZE = (48, 48)
 
 # --- Spotify Setup ---
 # *** IMPORTANT: Replace with your actual Spotify Client ID and Secret ***
-SPOTIFY_CLIENT_ID = '31b85c896d824248baee151898803419' 
-SPOTIFY_CLIENT_SECRET = 'd9c5c9eb187e414c94ee12f50bbc82f3'
+SPOTIFY_CLIENT_ID = 'Your_Spotify_client_key' 
+SPOTIFY_CLIENT_SECRET = 'Your_Spotify_secret_client_key'
 
 # @st.cache_resource ensures the model and detector are loaded only once
 @st.cache_resource
@@ -193,4 +193,5 @@ def main_app():
                     st.warning("Could not find song suggestions. Check your Spotify API status.")
 
 if __name__ == "__main__":
+
     main_app()
